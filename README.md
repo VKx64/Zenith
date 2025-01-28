@@ -3,14 +3,19 @@
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PocketBase](https://img.shields.io/badge/PocketBase-0.22.4-green.svg)](https://pocketbase.io/)
 
-Reach your productivity peak with Zenith – a beautifully minimal Pomodoro timer and task manager.
+Achieve perfect work-break balance with Zenith - a credit-based productivity system that rewards your focused work with calculated break time.
 
 ## Features ✨
-- Focus timer with circular progress visualization  
-- Task management with real-time sync  
-- User authentication and data persistence  
-- Responsive design for all devices  
-- PocketBase backend for full control  
+- **Credit-Assigned Tasks** - Add value to each task
+- **Work Session Timer** - Real-time duration tracking
+- **Smart Break Calculator** - Earn breaks based on credits earned + time worked
+- **PocketBase Backend** - Secure data storage and user profiles
+
+## Break Time Formula 🧮
+Your well-deserved break is calculated using:
+```math
+Break Minutes = (Total Credits Earned) + (Total Work Minutes / 6)
+```
 
 ## Tech Stack 🛠️
 - **Frontend**: Vite + React + Tailwind CSS  
